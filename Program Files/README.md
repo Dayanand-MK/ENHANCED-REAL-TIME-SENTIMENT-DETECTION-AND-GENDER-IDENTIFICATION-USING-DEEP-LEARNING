@@ -1,6 +1,6 @@
 # 😊 Deep Emotion Recognition
 
-This project focuses on **Deep Learning-based Emotion Recognition**. Using deep neural networks and computer vision techniques, it detects human emotions from images and videos. The system leverages facial recognition with **Haar Cascade** and classifies emotions with a pre-trained deep learning model.
+This project focuses on **Deep Learning-based Emotion Recognition**. Using deep neural networks and computer vision techniques, it detects human emotions from images and videos. The system leverages facial recognition with **Haar Cascade** and classifies emotions with a deep learning model.
 
 ## 🚀 Project Overview
 
