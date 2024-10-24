@@ -16,7 +16,7 @@ Here's a breakdown of the key files in this repository:
 - `Emote_train.py` - Script for training the emotion detection model using the provided dataset.
 - `data_load.py` - Loads the training and testing datasets (`Train1.csv`, `Test_1.csv`) for model training and validation.
 - `deep_emotion.py` - The main deep learning model definition for emotion recognition.
-- `deep_emotion-100-128-0.005.pt` - A pre-trained model for emotion detection, containing learned weights and parameters.
+- `deep_emotion-100-128-0.005.pt` - A trained model for emotion detection, containing learned weights and parameters.
 - `deep_emotion_weights.pt` - Another set of model weights for emotion recognition.
 - `haarcascade_frontalface_default.xml` - Haar Cascade file used for detecting faces in the images and videos.
 - `main.py` - The main script to run the emotion recognition system.
