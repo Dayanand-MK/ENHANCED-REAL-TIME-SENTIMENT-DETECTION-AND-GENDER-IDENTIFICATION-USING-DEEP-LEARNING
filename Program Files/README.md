@@ -33,7 +33,7 @@ Here's a breakdown of the key files in this repository:
 
 The model is trained using deep learning techniques, and the following files are related to its structure and weights:
 - `deep_emotion.py` - Defines the architecture of the deep learning model.
-- `deep_emotion-100-128-0.005.pt` & `deep_emotion_weights.pt` - Pre-trained models, enabling fast and accurate emotion recognition.
+- `deep_emotion-100-128-0.005.pt` & `deep_emotion_weights.pt` - Trained models, enabling fast and accurate emotion recognition.
 
 ### 🔍 Facial Detection
 
@@ -41,23 +41,12 @@ This project uses the **Haar Cascade** algorithm for detecting faces in images a
 
 ## 🛠️ How to Run
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/deep-emotion-recognition.git
-    cd deep-emotion-recognition
-    ```
-
-2. **Install the required dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the model for real-time video emotion detection**:
+1. **Run the model for real-time video emotion detection**:
     ```bash
     python main.py
     ```
 
-4. **To retrain the model**:
+2. **To retrain the model**:
     - Prepare your dataset and ensure the files `Train1.csv` and `Test_1.csv` are updated.
     - Run the training script:
       ```bash
